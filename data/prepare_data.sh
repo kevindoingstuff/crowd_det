@@ -35,14 +35,14 @@ get_file()
 }
 
 echo "** Download dataset files"
-get_file https://drive.https://drive.google.com/uc?export=download&id=1BtojQnGpytTgUw8xcaynbN_7wYUlmgGp
-get_file https://drive.google.com/uc?export=download&id=1m0oGa5zqN28r3bwDhtKzHw0b01fhgUzL
-get_file https://drive.google.com/uc?export=download&id=1T0wRSa55u7ZAfr86IlBlBD5UaLZoOsT_
-get_file https://drive.google.com/uc?export=download&id=1jhLyNXfrLlbK5btflVOqBtoXz4IXN87Z
+get_file https://drive.google.com/uc?id=1BtojQnGpytTgUw8xcaynbN_7wYUlmgGp
+get_file https://drive.google.com/uc?id=1m0oGa5zqN28r3bwDhtKzHw0b01fhgUzL
+get_file https://drive.google.com/uc?id=1T0wRSa55u7ZAfr86IlBlBD5UaLZoOsT_
+get_file https://drive.google.com/uc?id=1jhLyNXfrLlbK5btflVOqBtoXz4IXN87Z
 # test data is not needed...
 # get_file https://drive.google.com/uc?id=1tQG3E_RrRI4wIGskorLTmDiWHH2okVvk CrowdHuman_test.zip
-get_file https://drive.google.com/uc?export=download&id=1jhLyNXfrLlbK5btflVOqBtoXz4IXN87Z
-get_file https://drive.google.com/uc?export=download&id=1AC1sTJn0Oh5pyMmMGsSTDN6OD_LjKP07
+get_file https://drive.google.com/uc?id=1lCGStmqNW_AqvPoGXJLuDuJRBCw45W90
+get_file https://drive.google.com/uc?id=1AC1sTJn0Oh5pyMmMGsSTDN6OD_LjKP07
 
 # unzip image files (ignore CrowdHuman_test.zip for now)
 echo "** Unzip dataset files"
